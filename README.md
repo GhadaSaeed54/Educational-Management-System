@@ -47,6 +47,7 @@ Features:
 
 
 Usage:
+
 Sign Up: Choose your user type (doctor, TA, or student) and provide required details to sign up.
 Sign In: Log in using your user ID after signing up.
 Navigate Menus: Use numeric options to select actions such as creating courses, managing assignments, or viewing grade
