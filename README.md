@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/a4531523-c469-4821-adf0-2cdcea7bc08c)
+![image](https://github.com/user-attachments/assets/1942cb19-8657-42cc-a56d-d9d9e62fed11)
+
 Educational Management System
 The Educational Management System is a Python-based application designed to facilitate the management of courses, assignments, and grades within an educational institution. It provides interfaces for doctors, teaching assistants (TAs), and students to interact with courses and assignments according to their roles.
 
