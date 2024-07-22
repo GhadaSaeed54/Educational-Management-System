@@ -1,59 +1,45 @@
 Educational Management System
+The Educational Management System is a Python-based application designed to facilitate the management of courses, assignments, and grades within an educational institution. It provides interfaces for doctors, teaching assistants (TAs), and students to interact with courses and assignments according to their roles.
 
-Overview
-The Educational Management System is a Python-based application designed to facilitate course management, assignment creation, grading, and solution submissions within an educational environment. It supports three main user roles: Doctor, Teaching Assistant (TA), and Student, each with specific permissions and functionalities.
 
-Components:
+Features
+  Users:
+    Doctor:
+      Create and manage courses.
+      Create assignments within courses.
+      Add grades to student assignments.
+    
+    Teaching Assistant (TA)
+      Assist in managing courses.
+      View course details and assignments.
+      
+    Student
+      Enroll in courses.
+      View course details and assignments.
+      Submit solutions to assignments.
+      
+ Course Management
+     Create Course: Doctors can create new courses, assigning themselves as course instructors.
+     Manage Assignments: Assignments can be created within courses by doctors and TAs.
+     Enrollment: Students can enroll in courses managed by doctors.
+      
+ Assignment Management
+    Create Assignment: Doctors and TAs can create assignments within courses.
+    Grade Assignments: Doctors can grade student submissions to assignments.
+    View Grades: Students and doctors can view grades for assignments.
 
-Users:
-Doctor: Responsible for creating and managing courses, assignments, grading student submissions, and viewing solutions.
-Teaching Assistant (TA): Assists in courses by viewing course details, assignments, and providing support.
-Student: Enrolls in courses, submits solutions to assignments, and views their grades.
-Courses and Assignments:
+Installation and Setup: To run the Educational Management System, follow these steps:
+  1.Clone the Repository
+  2.Run the Application: Ensure you have Python 3.x installed.
+  3.Interact with the System:
+  Once logged in, follow the prompts to navigate through the system menus:
+  Create courses (for doctors).
+  Enroll in courses (for students).
+  Create assignments (for doctors and TAs).
+  Submit solutions and view grades (for students).
 
-Course: Identified by a unique course code and managed by a Doctor. Contains multiple assignments.
-Assignment: Belongs to a specific course and includes attributes such as assignment name, correct answer, grades, and student solutions.
-
-System:
-Manages user authentication, course enrollment, assignment creation, and provides interfaces for different user roles.
-Functionalities
-
-Doctor:
-Creates and manages courses.
-Creates assignments within courses.
-Adds grades to student submissions.
-Views courses, assignments, and student solutions.
-
-Teaching Assistant:
-Assists in courses assigned to them.
-Views courses they assist in.
-Views assignments within assisted courses.
-
-Student:
-Enrolls in courses.
-Views enrolled courses.
-Submits solutions to assignments.
-Views grades received for assignments.
 
 Usage
-Signing Up:
-Choose user type (doctor, ta, student).
-Enter user ID, name, and email (valid email from Yahoo, Gmail, or Menofia.edu.eg).
-
-Signing In:
-Enter user type and user ID to log in.
-Navigate through menus based on user role to access functionalities.
-
-Main Menu:
-Offers options for signing up, signing in, or exiting the system.
-
-Role-specific Menus:
-Doctor Menu: Manage courses, create assignments, and view course details.
-Teaching Assistant Menu: Assist in courses, view assisted courses, and their details.
-Student Menu: Enroll in courses, view enrolled courses, and manage assignments.
-
-
-Notes
-Permissions are strictly enforced (e.g., only doctors can add grades or view student solutions).
-Error handling is implemented for invalid inputs and unauthorized actions.
-Users interact with menus to perform actions based on their roles, ensuring secure and role-specific functionalities.
+Sign Up: Choose your user type (doctor, TA, or student) and provide required details to sign up.
+Sign In: Log in using your user ID after signing up.
+Navigate Menus: Use numeric options to select actions such as creating courses, managing assignments, or viewing grade
